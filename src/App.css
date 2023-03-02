@@ -96,10 +96,10 @@
   position: absolute;
   content: "";
   background: #FFFFFF;
-  height: 3px;
-  width: 65px;
+  height: 6px;
+  width: 66px;
   bottom: -100%;
-  top: 76%;
+  top: 71%;
   transform: translate(-100%, 100%);
 }
 
