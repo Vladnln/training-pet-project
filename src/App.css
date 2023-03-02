@@ -53,3 +53,117 @@
   background-color: #FFFFFF;
   transition: 0.3s ease-in-out;
 }
+
+.main{
+  background-color: #002547;
+  padding-top: 140px;
+}
+.main__wrapper{
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  color: #1D92FF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.main__title{
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 84px;
+  text-transform: capitalize;
+}
+.main__title span{
+  color: #1D92FF;
+}
+.main__description{
+  max-width: 580px;
+  padding-top: 40px;
+}
+.underline{
+  text-decoration: underline;
+  position: relative;
+}
+.underline::after{
+  position: absolute;
+  content: "";
+  background: #FFFFFF;
+  height: 3px;
+  width: 65px;
+  bottom: -100%;
+  top: 76%;
+  transform: translate(-100%, 100%);
+}
+
+.main__picture{
+  margin-right: -150px;
+}
+.main__subtitle{
+  max-width: 401px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+}
+.main__subtitle span{
+  text-decoration: underline;
+  color: #FFFFFFE5;
+  font-weight: 800;
+}
+.main__buttons{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+.main__buttons button{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  padding: 15px 51px 15px 51px;
+}
+
+.main__buttons button:hover{
+  background: #FFFFFF;
+  color: #1D92FF;
+  transition: 0.4s ease-in-out;
+}
+
+.main__quote{
+  position: relative;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  max-width: 449px;
+  padding-top: 14px;
+  padding-left: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF80;
+  line-height: 22px;
+}
+
+.main__quote img{
+  position: absolute;
+  left: 0;
+  top: 17px;
+}
+
+.main__quote span{
+  color: #FFFFFFB2;
+  font-weight: 600;
+}
