@@ -17,6 +17,7 @@ class Header extends Component {
                         <a href="#">Pricing</a>
                         <a href="#">CTA</a>
                     </div>
+                    <button className="header__button">Try Demo</button>
                 </div>
             </div>
         );
