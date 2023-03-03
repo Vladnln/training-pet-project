@@ -167,3 +167,11 @@
   color: #FFFFFFB2;
   font-weight: 600;
 }
+.companies{
+  display: flex;
+  padding-top: 130px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1145px;
+  margin: auto;
+}
