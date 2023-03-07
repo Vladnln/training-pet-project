@@ -59,12 +59,14 @@
   background-color: #002547;
   padding-top: 140px;
 }
+
 .main__wrapper{
   max-width: 1280px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
+
 .title{
   color: #1D92FF;
   font-style: normal;
@@ -74,6 +76,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
 .main__title{
   color: #FFFFFF;
   font-style: normal;
@@ -82,13 +85,16 @@
   line-height: 84px;
   text-transform: capitalize;
 }
+
 .main__title span{
   color: #1D92FF;
 }
+
 .main__description{
   max-width: 580px;
   padding-top: 40px;
 }
+
 .underline{
   text-decoration: underline;
   position: relative;
@@ -107,6 +113,7 @@
 .main__picture{
   margin-right: -150px;
 }
+
 .main__subtitle{
   /*max-width: 401px;*/
   font-weight: 400;
@@ -115,11 +122,13 @@
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
 }
+
 .main__subtitle span{
   text-decoration: underline;
   color: #FFFFFFE5;
   font-weight: 800;
 }
+
 .main__buttons{
   padding-top: 40px;
   padding-bottom: 40px;
@@ -169,6 +178,7 @@
   color: #FFFFFFB2;
   font-weight: 600;
 }
+
 .companies{
   display: flex;
   padding-top: 130px;
@@ -177,6 +187,7 @@
   max-width: 1145px;
   margin: auto;
 }
+
 .stats__wrapper{
   padding-top: 180px;
   display: flex;
@@ -184,6 +195,7 @@
   max-width: 1280px;
   margin: auto;
 }
+
 .stats__main__title{
   font-style: normal;
   font-size: 39px;
@@ -191,10 +203,12 @@
   text-transform: capitalize;
   color: #000000;
 }
+
 .stats__main__title span{
   font-weight: 700;
   color: #000000;
 }
+
 .main__stats__subtitle{
   font-style: normal;
   font-weight: 400;
@@ -272,4 +286,38 @@
   line-height: 55px;
   text-transform: capitalize;
   color: #01070D;
+}
+.graphics__accordion {
+  position: relative;
+  background-color: #FFFFFF;
+  color: #01070D99;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.graphics__accordion img{
+  position: absolute;
+  right: 22px;
+  bottom: 22px;
+}
+
+.active, .graphics__accordion:hover {
+  background: #eee;
+}
+
+.graphics__accordion-desc {
+  text-transform: capitalize;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
 }
