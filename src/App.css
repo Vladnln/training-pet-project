@@ -52,6 +52,7 @@
   color: #1D92FF;
   background-color: #FFFFFF;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .main{
@@ -143,6 +144,7 @@
   background: #FFFFFF;
   color: #1D92FF;
   transition: 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 .main__quote{
@@ -214,12 +216,19 @@
 
 .stats__description{
   max-width: 496px;
+  padding-top: 92px;
+}
+
+.stats__marks-wrapper{
+  padding-top: 45px;
+  max-width: 465px;
 }
 
 .stats__marks{
-  list-style-type: none;
-  padding-top: 45px;
-  max-width: 465px;
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
   color: #01070D;
   opacity: 0.5;
   font-style: normal;
@@ -227,4 +236,40 @@
   font-size: 16px;
   line-height: 26px;
   text-transform: capitalize;
+}
+
+.stats__marks img:hover{
+  background: #002547;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.graphics__wrapper{
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.graphics__title span{
+  color: #01070D;
+  font-weight: 600;
+}
+.graphics__description{
+  max-width: 490px;
+}
+
+.graphics__img{
+  position: absolute;
+  transform: translate(80%, 50%);
+}
+
+.graphics__title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 55px;
+  text-transform: capitalize;
+  color: #01070D;
 }
