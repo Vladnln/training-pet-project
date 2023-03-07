@@ -107,7 +107,7 @@
   margin-right: -150px;
 }
 .main__subtitle{
-  max-width: 401px;
+  /*max-width: 401px;*/
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -190,7 +190,7 @@
   color: #000000;
 }
 .stats__main__title span{
-  font-weight: 600;
+  font-weight: 700;
   color: #000000;
 }
 .main__stats__subtitle{
@@ -202,6 +202,29 @@
   color: #01070DB2;
 }
 
+.main__stats__subtitle span{
+  font-weight: 700;
+  color: #01070DB2;
+  text-decoration: none;
+}
+
+.stats__img{
+  max-width: 574px;
+}
+
 .stats__description{
   max-width: 496px;
+}
+
+.stats__marks{
+  list-style-type: none;
+  padding-top: 45px;
+  max-width: 465px;
+  color: #01070D;
+  opacity: 0.5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
 }
