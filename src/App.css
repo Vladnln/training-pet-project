@@ -287,37 +287,25 @@
   text-transform: capitalize;
   color: #01070D;
 }
-.graphics__accordion {
+
+.accordion__wrapper{
+  padding: 12px 124px 12px 20px;
   position: relative;
-  background-color: #FFFFFF;
-  color: #01070D99;
-  text-transform: capitalize;
-  cursor: pointer;
-  padding: 12px;
-  width: 100%;
-  border: 1px solid;
   border-radius: 10px;
   text-align: left;
-  outline: none;
-  transition: 0.4s;
+  background: #FFFFFF;
+  border: 1px solid rgba(1, 7, 13, 0.1);
+}
+
+.accordion__header-img{
+  position: absolute;
+  right: 22px;
+  bottom: 13px;
+}
+.accordion__header{
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-}
-
-.graphics__accordion img{
-  position: absolute;
-  right: 22px;
-  bottom: 22px;
-}
-
-.active, .graphics__accordion:hover {
-  background: #eee;
-}
-
-.graphics__accordion-desc {
-  text-transform: capitalize;
-  padding: 0 18px;
-  display: none;
-  background-color: white;
+  color: #1D92FF;
 }
