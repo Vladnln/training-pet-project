@@ -115,7 +115,7 @@
 }
 
 .main__subtitle{
-  /*max-width: 401px;*/
+  max-width: 401px;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -266,17 +266,20 @@
   justify-content: space-between;
   max-width: 1280px;
 }
+
 .graphics__title span{
   color: #01070D;
   font-weight: 600;
 }
-.graphics__description{
-  max-width: 490px;
-}
 
 .graphics__img{
   position: absolute;
-  transform: translate(80%, 50%);
+  transform: translate(27%, -17%);
+  right: 10px;
+}
+
+.graphics__description{
+  max-width: 490px;
 }
 
 .graphics__title{
@@ -288,24 +291,74 @@
   color: #01070D;
 }
 
-.accordion__wrapper{
-  padding: 12px 124px 12px 20px;
-  position: relative;
-  border-radius: 10px;
-  text-align: left;
-  background: #FFFFFF;
+.accordion {
+  max-width: 472px;
+  margin: 2rem auto;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #FFFFFF;
   border: 1px solid rgba(1, 7, 13, 0.1);
 }
 
-.accordion__header-img{
-  position: absolute;
-  right: 22px;
-  bottom: 13px;
+.accordion-title:hover {
+  background-color: #0ff;
+  transition: 0.3s ease-in-out;
 }
-.accordion__header{
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
+
+.accordion-title,
+.accordion-content {
+  margin: 10px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.accordion-title:hover{
   color: #1D92FF;
+}
+
+.accordion-content {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(1, 7, 13, 0.1);
+  border-radius: 5px;
+}
+
+.graphics__buttons{
+  font-style: normal;
+  color: #1D92FF;
+  font-weight: 500;
+  width: 198px;
+  margin-left: 25px;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 4px;
+  padding: 15px 30px;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #1D92FF1A;
+}
+.graphics__buttons:hover{
+  background: #1D92FF;
+  color: #FFFFFF;
+  border: 1px solid;
+  transition: 0.3s ease-in-out;
+}
+.abilities-description{
+  max-width: 1280px;
+  text-align: center;
+  margin: auto;
+  padding-top: 400px;
+  padding-bottom: 100px;
+}
+.abilities__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 53px;
+  color: #000000;
 }

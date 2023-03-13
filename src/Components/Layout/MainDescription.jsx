@@ -22,7 +22,6 @@ class MainDescription extends Component {
                             </div>
                         </div>
                         <div className="main__picture"><img src={MainPicture}/></div>
-
                     </div>
                 </section>
             </div>
