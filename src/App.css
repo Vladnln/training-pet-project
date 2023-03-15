@@ -515,6 +515,23 @@
   transition: 0.1s ease-in-out;
 }
 
+.subscription__card-wrapper:hover .subscription__buttons{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.subscription__card-wrapper:hover .subscription__button{
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
+}
+
+.subscription__card-wrapper:hover .subscription__button:hover{
+  color: #FFFFFF;
+  background: #1D92FF;
+  cursor: pointer;
+}
+
 .subscription__card-title{
   font-style: normal;
   padding-top: 29px;
@@ -560,13 +577,6 @@
   line-height: 21px;
   border: none;
   padding: 6px 29px 6px 29px;
-}
-
-.subscription__button:hover{
-  background-color: #FFFFFF;
-  color: #01070D;
-  box-shadow: 4px 2px 38px rgba(0, 0, 0, 0.2);
-  transition: 0.3s ease-in-out;
 }
 
 .subscription__mark-list{
