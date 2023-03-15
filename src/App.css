@@ -464,10 +464,18 @@
 }
 .subscription__cards-container{
   padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
 }
 
 .subscription__card-wrapper{
-  max-width: 362px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 362px;
   text-align: center;
   border: 1px solid #1D92FF;
   border-radius: 10px;
@@ -552,5 +560,6 @@
 .button__order{
   margin-top: 27px;
   margin-bottom: 29px;
+  margin-right: 25px;
   max-width: 208px;
 }
