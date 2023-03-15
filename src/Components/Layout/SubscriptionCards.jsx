@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-
+import React, { Component } from 'react';
+import Checkmark from '../../assets/icons/Group325.png'
 class SubscriptionCards extends Component {
     render() {
         return (
@@ -12,10 +12,23 @@ class SubscriptionCards extends Component {
                         <button className="subscription__buttons">
                             <button className="subscription__button">Monthiy</button>
                             <button className="subscription__button">Annually</button>
-
                         </button>
-
                     </div>
+                    <div className="subscription__mark-list">
+                        <div className="subscription__mark-list check-list">
+                            <img src={Checkmark} alt="" />
+                            <p className="subscription__mark-list list-title">Consulting with experts 20 times for I yea</p>
+                        </div>
+                        <div className="subscription__mark-list check-list">
+                            <img src={Checkmark} alt="" />
+                            <p className="subscription__mark-list list-title">Add friends for free for 1month</p>
+                        </div>
+                        <div className="subscription__mark-list check-list">
+                            <img src={Checkmark} alt="" />
+                            <p className="subscription__mark-list list-title">Free 5 fonts</p>
+                        </div>
+                    </div>
+                    <button className="graphics__buttons button__order">Buy Now</button>
                 </div>
             </div>
         );
