@@ -439,9 +439,10 @@
 }
 
 .subscription__container{
-  max-width: 1065px;
+  max-width: 1110px;
   margin: auto;
   padding-top: 140px;
+  padding-bottom: 156px;
 }
 
 .subscription__title{
@@ -469,7 +470,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
 }
 
 .subscription__card-wrapper{
@@ -530,6 +530,7 @@
   color: #FFFFFF;
   background: #1D92FF;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .subscription__card-title{
@@ -608,4 +609,79 @@
   margin-right: 25px;
   max-width: 208px;
   cursor: pointer;
+}
+
+.callback__container{
+  background-color: #002648;
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+.callback__heading{
+  max-width: 483px;
+  padding-top: 56px;
+  padding-left: 54px;
+  padding-bottom: 54px;
+}
+
+.callback__title{
+  font-size: 30px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.callback__subtitle{
+  color: #FFFFFF;
+  max-width: 419px;
+  padding-top: 24px;
+}
+
+.callback__rect{
+  position: absolute;
+  transform: translate(9%, 30%);
+}
+
+.callback__rect1{
+  position: absolute;
+  transform: translate(-26%, 4%);
+}
+
+.callback__input{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 40px;
+  background: transparent;
+  opacity: 0.7;
+  color: #FFFFFF;
+  position: relative;
+  width: 460px;
+  font-weight: 700;
+  line-height: 12px;
+  border-radius: 50px;
+  font-size: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.callback__button{
+  width: 76px;
+  position: absolute;
+  transform: translate(-50%, 28%);
+  right: 55px;
+  height: 42px;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.footer{
+  background: #070C11;
+}
+
+.footer__container{
+  max-width: 1146px;
 }

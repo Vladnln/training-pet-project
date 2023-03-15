@@ -8,6 +8,8 @@ import Graphics from "../Components/Layout/Graphics.jsx";
 import Abilities from "../Components/Layout/Abilities.jsx";
 import AbilitiesMain from "../Components/Layout/AbilitiesMain.jsx";
 import Subscription from "../Components/Layout/Subscription.jsx";
+import CallBack from "../Components/Layout/CallBack.jsx";
+import Footer from "../Components/Layout/Footer.jsx";
 class MainPage extends Component {
     render() {
         return (
@@ -20,6 +22,8 @@ class MainPage extends Component {
                 <Abilities/>
                 <AbilitiesMain/>
                 <Subscription/>
+                <CallBack/>
+                <Footer/>
             </div>
         );
     }
