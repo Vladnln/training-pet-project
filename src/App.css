@@ -616,6 +616,7 @@
   max-width: 1250px;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   border-radius: 7px;
