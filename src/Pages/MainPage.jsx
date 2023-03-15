@@ -7,6 +7,7 @@ import Stats from "../Components/Layout/Stats.jsx";
 import Graphics from "../Components/Layout/Graphics.jsx";
 import Abilities from "../Components/Layout/Abilities.jsx";
 import AbilitiesMain from "../Components/Layout/AbilitiesMain.jsx";
+import Subscription from "../Components/Layout/Subscription.jsx";
 class MainPage extends Component {
     render() {
         return (
@@ -18,6 +19,7 @@ class MainPage extends Component {
                 <Graphics/>
                 <Abilities/>
                 <AbilitiesMain/>
+                <Subscription/>
             </div>
         );
     }

@@ -1,6 +1,5 @@
 import React, {Component, useState} from 'react';
 import Graphs from '../../assets/img/Group463.png'
-import Arrow from "../../assets/icons/AccordArrow.svg"
 import AccordionLayout from "./AccordionLayout.jsx";
 class Graphics extends Component {
     render() {

@@ -434,6 +434,82 @@
   color: rgba(1, 7, 13, 0.7);
 }
 .card__img{
-  position: absolute;
-  transform: translate(-50%, 66%);
+  margin-top: 17px;
+  transform: rotate(-50deg);
+}
+
+.subscription__container{
+  max-width: 1065px;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.subscription__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #01070D;
+}
+
+.subscription__subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(1, 7, 13, 0.7);
+}
+.subscription__cards-container{
+  padding-top: 60px;
+}
+
+.subscription__card-wrapper{
+  max-width: 362px;
+  text-align: center;
+  border: 1px solid #1D92FF;
+  border-radius: 10px;
+}
+
+.subscription__card-title{
+  font-style: normal;
+  padding-top: 29px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #01070D;
+}
+
+.subscription__card-subtitle{
+  font-style: normal;
+  max-width: 181px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  margin: auto;
+  color: rgba(1, 7, 13, 0.7);
+}
+
+.subscription__card-price{
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 19px;
+  font-size: 39px;
+  line-height: 53px;
+  color: #01070D;
+}
+
+.subscription__buttons{
+  background: #FAFAFA;
+  border: 0.5px solid rgba(1, 7, 13, 0.05);
+  border-radius: 18px;
+}
+
+.subscription__button{
+  background: #FFFFFF;
+  border-radius: 18px;
+  color: #01070D;
 }
